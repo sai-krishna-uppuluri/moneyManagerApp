@@ -1,1 +1,68 @@
 /* Write your CSS here */
+.money-details-container {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.money-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  background-color: #ecfccb;
+  border-radius: 12px;
+  width: 100%;
+  margin: 25px;
+}
+
+.balance-image {
+  height: 75px;
+  width: 75px;
+}
+.money-headers {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  margin-left: 25px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+  color: #7e858e;
+}
+
+.amount {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #7e858e;
+}
+
+.money-container2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  background-color: #cffafe;
+  border-radius: 12px;
+  margin-left: 10px;
+  width: 100%;
+  margin: 25px;
+}
+
+.money-container3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  background-color: #7c3aed;
+  border-radius: 12px;
+  margin-left: 10px;
+  width: 100%;
+  margin: 25px;
+}

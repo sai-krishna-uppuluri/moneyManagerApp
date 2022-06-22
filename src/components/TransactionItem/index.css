@@ -1,1 +1,32 @@
 /* Write your CSS here */
+.transaction-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid #d7dfe9;
+}
+
+.header {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+  width: 30%;
+}
+.delete-container {
+  display: flex;
+  width: 10%;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  align-self: center;
+}
+.delete-icon {
+  height: 30px;
+  width: 30px;
+}
