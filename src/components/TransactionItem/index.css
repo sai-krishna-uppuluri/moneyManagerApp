@@ -13,6 +13,7 @@
   font-size: 16px;
   color: #475569;
   width: 30%;
+  margin-left: 20px;
 }
 .delete-container {
   display: flex;
@@ -27,6 +28,6 @@
   align-self: center;
 }
 .delete-icon {
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
 }

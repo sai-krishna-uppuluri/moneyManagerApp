@@ -66,13 +66,13 @@ class MoneyManager extends Component {
     })
   }
 
-  onChangeTextField = event => {
+  onChangeAmountField = event => {
     this.setState({
       amountInput: event.target.value,
     })
   }
 
-  onChangeTextField = event => {
+  onChangeTypeField = event => {
     this.setState({
       typeInput: event.target.value,
     })
@@ -97,7 +97,7 @@ class MoneyManager extends Component {
     let expensesAccount = 0
     transactionList.forEach(eachTransaction => {
       if (eachTransaction.type === transactionTypeOptions[1].displayText) {
-        expensesAccount += expensesAccount
+        expensesAccount += eachTransaction.amount
       }
     })
     return expensesAccount

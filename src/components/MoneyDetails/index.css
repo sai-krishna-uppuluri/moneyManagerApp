@@ -7,6 +7,15 @@
   width: 100%;
 }
 
+@media screen and (max-width: 576px) {
+  .money-details-container {
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 0px;
+    justify-content: center;
+  }
+}
+
 .money-container1 {
   display: flex;
   align-items: center;
@@ -16,6 +25,15 @@
   border-radius: 12px;
   width: 100%;
   margin: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .money-container1 {
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    margin-top: 15px;
+  }
 }
 
 .balance-image {
@@ -55,14 +73,33 @@
   margin: 25px;
 }
 
+@media screen and (max-width: 576px) {
+  .money-container2 {
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    margin-top: 15px;
+  }
+}
+
 .money-container3 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 15px;
-  background-color: #7c3aed;
+  background-color: #cbd5e1;
   border-radius: 12px;
   margin-left: 10px;
   width: 100%;
   margin: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .money-container3 {
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }

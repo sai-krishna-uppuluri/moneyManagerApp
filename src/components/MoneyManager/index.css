@@ -60,9 +60,12 @@
   height: 550px;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 576px) {
   .add-transaction-container {
     width: 100%;
+    padding: 15px;
+    width: 100%;
+    height: auto;
   }
 }
 .add-transaction-heading {
@@ -71,6 +74,12 @@
   color: #334155;
   font-weight: 500;
   margin-bottom: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .add-transaction-heading {
+    margin-bottom: 10px;
+  }
 }
 
 .add-transaction-form {
@@ -100,6 +109,12 @@
   height: 30px;
 }
 
+@media screen and (max-width: 576px) {
+  .input-label {
+    margin-bottom: 15px;
+  }
+}
+
 .add-button {
   background-color: #7c3aed;
   color: #ffffff;
@@ -113,6 +128,15 @@
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 576px) {
+  .add-button {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    height: 45px;
+    width: 90px;
+  }
+}
+
 .history-container {
   display: flex;
   flex-direction: column;
@@ -124,7 +148,15 @@
   margin-left: 100px;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 576px) {
+  .history-container {
+    margin-left: 0px;
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
   .history-container {
     width: 100%;
     margin-top: 20px;
